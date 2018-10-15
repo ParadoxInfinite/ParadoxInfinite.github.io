@@ -56,7 +56,12 @@ a:hover{
   transition: 0.3s linear;
   color : #583E2E;
 }
-.edu,.cont,.soc{
+.edu{
+  font-size: 1em;
+  margin-left: 30%;
+  padding-top : 7%;
+}
+.cont,.soc{
   font-size: 1em;
   margin-left: 30%;
   padding-top: 10%;
