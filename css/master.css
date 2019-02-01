@@ -1,5 +1,4 @@
 body {
-  overflow-y: hidden;
   font-family: "PT Sans Narrow", sans-serif;
   background: radial-gradient(circle, #262626 0%, #ad141e 50%);
   color: #f5f5f5;
@@ -73,6 +72,11 @@ h1 {
   line-height: 99vh;
 }
 
+h3, h2 {
+  padding-top: 50px;
+  text-align: center;
+}
+
 .hidden {
   display: none;
 }
@@ -103,8 +107,14 @@ nav {
 
 .bgani {
   animation-name: change-bg;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
+}
+
+.edu {
+  font-size: 1.2em;
+  padding-top: 70px;
+  min-height: 100vh;
 }
 
 @keyframes fade-in-right {
