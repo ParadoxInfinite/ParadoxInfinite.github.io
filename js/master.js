@@ -5,3 +5,4 @@ $("#a,#e,#c").click(function(){
 $("h2,img").click(function(){
   $("li").removeClass("active");
 })
+console.log(navigator.userAgent);
