@@ -1,7 +1,18 @@
+* {
+  overflow: hidden;
+}
+
 body {
   font-family: "PT Sans Narrow", sans-serif;
-  background: radial-gradient(circle, #262626 0%, #ad141e 50%);
+  background: radial-gradient(circle, #262626 0%, #ad141e 50%) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   color: #f5f5f5;
+}
+
+.resp h2 {
+  margin: 300px auto;
+  width: 90%;
 }
 
 span, .list {
@@ -57,11 +68,19 @@ span, .list {
   background: rgba(0, 0, 0, 0) !important;
 }
 
+.font {
+  text-align: center;
+  font-family: "VT323", monospace;
+}
+
+.container {
+  min-height: 100vh;
+}
+
 .main {
   text-align: center;
   font-family: "VT323", monospace;
   font-size: 2.5em;
-  min-height: 100vh;
 }
 
 h1 {
@@ -75,6 +94,10 @@ h1 {
 h3, h2 {
   padding-top: 50px;
   text-align: center;
+}
+
+h5 {
+  font-size: 1.5em;
 }
 
 .hidden {
@@ -111,10 +134,59 @@ nav {
   animation-fill-mode: forwards;
 }
 
-.edu {
+.edu, .skills {
   font-size: 1.2em;
   padding-top: 70px;
   min-height: 100vh;
+}
+
+i {
+  font-size: 3em;
+  padding: 10px;
+}
+
+i:hover {
+  color: #db1926;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.hint {
+  padding-top: 300px;
+}
+
+.overlay a {
+  color: #db1926;
+  position: fixed;
+  top: 100px;
+  right: 100px;
+  font-size: 50px;
+  text-decoration: none;
+  float: right;
+}
+
+.overlay a:hover {
+  color: #7f0f16;
+}
+
+.overlay:target {
+  display: block;
+  visibility: visible;
+  opacity: 1;
 }
 
 @keyframes fade-in-right {
