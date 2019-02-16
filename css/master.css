@@ -164,22 +164,25 @@ i:hover {
   opacity: 0;
   background: rgba(0, 0, 0, 0.8);
 }
+.overlay a {
+  color: white;
+  text-decoration: none;
+}
 
 .hint {
   padding-top: 300px;
 }
 
-.overlay a {
+.overlay #close {
   color: #db1926;
   position: fixed;
   top: 100px;
   right: 100px;
   font-size: 50px;
-  text-decoration: none;
   float: right;
 }
 
-.overlay a:hover {
+.overlay #close:hover {
   color: #7f0f16;
 }
 
