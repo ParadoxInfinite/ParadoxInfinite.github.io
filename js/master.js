@@ -3,6 +3,10 @@ $('.nav-item').click(function(){
   $('.nav-item').removeClass('active');
   $(this).addClass('active');
 });
+$('.navbar-brand').click(function(){
+  $('.nav-item').removeClass('active');
+  $('#Home').addClass('active');
+});
 $('body').keypress(function(e){
   if(e.keyCode==101||e.keyCode==69){
     $('body').addClass('bgani');
