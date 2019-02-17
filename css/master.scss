@@ -155,7 +155,19 @@ i:hover{
   background : rgba(0,0,0,0.8);
 }
 .hint {
-  padding-top: 300px;
+  padding-top: 180px;
+}
+table{
+  .label{
+    text-align: right;
+  }
+  a:hover{
+    color : lighten($base-color,10%);
+  }
+  margin-top: 40px;
+  td{
+    padding : 5px 10px;
+  }
 }
 .overlay #close{
   color : lighten($base-color,10%);

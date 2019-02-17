@@ -170,7 +170,20 @@ i:hover {
 }
 
 .hint {
-  padding-top: 300px;
+  padding-top: 180px;
+}
+
+table {
+  margin-top: 40px;
+}
+table .label {
+  text-align: right;
+}
+table a:hover {
+  color: #db1926;
+}
+table td {
+  padding: 5px 10px;
 }
 
 .overlay #close {
