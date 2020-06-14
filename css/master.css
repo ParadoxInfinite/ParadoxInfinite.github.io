@@ -15,11 +15,14 @@ body {
   width: 90%;
 }
 
-span, .list {
+span,
+.list {
   color: #db1926;
 }
 
-.small1, .list1, .list2 {
+.small1,
+.list1,
+.list2 {
   font-family: "Dosis", sans-serif;
 }
 
@@ -28,14 +31,17 @@ span, .list {
   font-size: 1.4em;
 }
 
-.list1, .list2 {
+.list1,
+.list2 {
   color: #db1926;
   font-size: 0.5em;
 }
-.list1 li, .list2 li {
+.list1 li,
+.list2 li {
   list-style: none;
 }
-.list1 li:nth-child(2n), .list2 li:nth-child(2n) {
+.list1 li:nth-child(2n),
+.list2 li:nth-child(2n) {
   color: #f5f5f5;
 }
 
@@ -51,11 +57,13 @@ span, .list {
   text-decoration: underline;
 }
 
-.btn, .btn-outline-danger {
+.btn,
+.btn-outline-danger {
   color: #f5f5f5;
 }
 
-.mr-auto, .mx-auto {
+.mr-auto,
+.mx-auto {
   margin-left: auto !important;
   margin-right: 0 !important;
 }
@@ -91,7 +99,8 @@ h1 {
   line-height: 99vh;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-top: 50px;
   text-align: center;
 }
@@ -112,7 +121,8 @@ nav {
   font-size: 1.3em;
 }
 
-.ani-1, .ani-3 {
+.ani-1,
+.ani-3 {
   opacity: 0;
   animation: fade-in-right ease 0.4s forwards;
 }
@@ -134,7 +144,8 @@ nav {
   animation-fill-mode: forwards;
 }
 
-.edu, .skills {
+.edu,
+.skills {
   font-size: 1.2em;
   padding-top: 70px;
   min-height: 100vh;
@@ -162,7 +173,7 @@ i:hover {
   display: none;
   visibility: hidden;
   opacity: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.95);
 }
 .overlay a {
   color: white;
@@ -171,6 +182,9 @@ i:hover {
 
 .hint {
   padding-top: 180px;
+}
+.hint i {
+  font-size: 2.5em;
 }
 
 table {
