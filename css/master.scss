@@ -137,10 +137,14 @@ nav {
   animation-fill-mode: forwards;
 }
 .edu,
-.skills {
+.skills,
+.work {
   font-size: 1.2em;
   padding-top: 70px;
   min-height: 100vh;
+}
+.work {
+  padding-top: 120px;
 }
 i {
   font-size: 3em;
